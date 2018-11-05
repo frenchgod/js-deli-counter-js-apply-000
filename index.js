@@ -9,8 +9,7 @@ function nowServing(lineOfPeople){
 		return "There is nobody waiting to be served!"	
 	}
 	else{
-		var firstPerson = lineOfPeople[0]
-		lineOfPeople.shift()
+		var firstPerson = lineOfPeople.shift()
 		return "Currently serving " + firstPerson + "."
 	}
 }
