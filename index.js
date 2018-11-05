@@ -8,7 +8,7 @@ const line = []
 console.log(takeANumber(line))
 console.log(takeANumber(line))
 console.log(takeANumber(line))
-
+console.log(line)
 
 function nowServing(lineOfPeople){
 
