@@ -1,6 +1,6 @@
 function takeANumber(lineOfPeople, personName){
 	lineOfPeople.push(personName)
-	return "Welcome, " +  personName + ". You are number " + lineOfPeople.length + " in line."
+	return "Welcome, You are number " + lineOfPeople.length + " in line."
 }
 
 function nowServing(lineOfPeople){
