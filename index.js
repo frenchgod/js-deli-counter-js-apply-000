@@ -1,4 +1,5 @@
 function takeANumber(lineOfPeople){
+  let count = 0
 	lineOfPeople.push()
 	return "Welcome, You are number " + lineOfPeople.length + " in line."
 }
