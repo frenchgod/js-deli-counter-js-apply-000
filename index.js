@@ -1,9 +1,12 @@
 function takeANumber(lineOfPeople){
   let currentTicket = 0
   currentTicket++
-	lineOfPeople.push()
-	return "Welcome, You are number " + lineOfPeople.length + " in line."
+	lineOfPeople.push(currentTicket)
+	return "Welcome, You are number " + currentTicket
 }
+const line = []
+console.log(takeANumber(line))console.log(takeANumber(line))
+
 
 function nowServing(lineOfPeople){
 
