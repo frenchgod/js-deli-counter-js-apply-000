@@ -1,5 +1,5 @@
-function takeANumber(lineOfPeople, personName){
-	lineOfPeople.push(personName)
+function takeANumber(lineOfPeople){
+	lineOfPeople.push()
 	return "Welcome, You are number " + lineOfPeople.length + " in line."
 }
 
