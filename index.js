@@ -5,7 +5,9 @@ function takeANumber(lineOfPeople){
 	return "Welcome, You are number " + currentTicket
 }
 const line = []
-console.log(takeANumber(line))console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(takeANumber(line))
 
 
 function nowServing(lineOfPeople){
